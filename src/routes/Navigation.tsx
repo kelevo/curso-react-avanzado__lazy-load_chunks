@@ -9,7 +9,7 @@ export const Navigation = () => {
     <BrowserRouter>
       <div className="main-layout">
         <nav>
-          <img src={ reactLogo } alt="React loog" />
+          <img className="logo-sidebar" src={ reactLogo } alt="React loog" />
           <ul>
             <li>
               <NavLink 
